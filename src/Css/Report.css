@@ -1,11 +1,18 @@
 .st2251{
-    margin: auto;
+    padding-left: 30%;
+    color: black;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+.Name{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
 }
 
 body {
@@ -19,6 +26,7 @@ body {
 
 .box9 {
     background-color: white;
+    color: black;
     width: 55%;
     height: 665px;
     padding: 10px;

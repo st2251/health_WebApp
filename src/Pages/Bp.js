@@ -52,7 +52,7 @@ const Bp = () => {
             console.log(dob);
             console.log(age);
             console.log(country);
-
+            console.log(gender);
             
 
         }
@@ -95,9 +95,11 @@ const Bp = () => {
                                 </tr>
                                 <tr>
                                     <td class="col01">Gender</td>
-                                    <td class="col11">Male <input type="radio" name="myGender" id="" value ={ gender } required onChange ={ event => setGender(event.target.value)} /> Female <input type="radio" name="myGender" id="" value ={ gender } required onChange ={ event => setGender(event.target.value)}/>
-                                        Other  <input type="radio" name="myGender" id=""/></td>
-
+                                    <select value={gender} required onChange={event => setGender(event.target.value)}>
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                        <option>Others</option>
+                                    </select>
                                 </tr>
 
                             </table>
