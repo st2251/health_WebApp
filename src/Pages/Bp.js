@@ -42,7 +42,7 @@ const Bp = () => {
         },[country]);
 
         React.useEffect(() => {
-            window.sessionStorage.setItem('seven',gender)
+            window.sessionStorage.setItem('seven',gender);
         },[gender]);
         
         const handleSubmit = (event) => {
@@ -51,10 +51,14 @@ const Bp = () => {
             console.log(email);
             console.log(dob);
             console.log(age);
+            console.log(gender);
             console.log(country);
+<<<<<<< HEAD
             console.log(gender);
             
 
+=======
+>>>>>>> 7244174a73267e94efe62b6577fcfb0cb090b942
         }
 
         
@@ -95,11 +99,22 @@ const Bp = () => {
                                 </tr>
                                 <tr>
                                     <td class="col01">Gender</td>
+<<<<<<< HEAD
                                     <select value={gender} required onChange={event => setGender(event.target.value)}>
                                         <option>Male</option>
                                         <option>Female</option>
                                         <option>Others</option>
                                     </select>
+=======
+                                    <th class="col11">
+                                    <select class="dropdown2" value={gender} required onChange={event => setGender(event.target.value)}>
+                                            <option>Select</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                            <option>Other</option>       
+                                    </select></th>
+
+>>>>>>> 7244174a73267e94efe62b6577fcfb0cb090b942
                                 </tr>
 
                             </table>
