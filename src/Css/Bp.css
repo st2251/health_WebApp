@@ -1,0 +1,111 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#heading{
+    color: aliceblue;
+    background-color: rgb(23, 11, 90);
+    margin-left: 32.6%;
+    margin-right: 27.5%;
+    padding-left: 13%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1%;
+    font-size: 260%;
+    border-radius: 5px;
+   
+}
+body {
+    background: url('../images/doctor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+}
+.tables4{
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    margin-left: 0%;
+    margin-right: 34%;
+    font-size: 135%;
+   
+   
+}
+.table22{
+                border: 40px solid rgb(214, 239, 240);
+                width: 60%;
+                margin-left: 59.1%;
+                border-collapse: collapse;
+              }
+.gap{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.col01{
+    background-color: rgb(214, 239, 240);
+    border: 40px solid rgb(214, 239, 240);
+    width: 60%;
+    margin-left: 59.1%;
+    border-collapse: collapse;
+}             
+.col11{
+    background-color: rgb(214, 239, 240);
+    border: 40px solid rgb(214, 239, 240);
+    width: 60%;
+    margin-left: 59.1%;
+    border-collapse: collapse;
+}
+#col01{
+    background-color: rgb(214, 239, 240);
+    font-size: 200%;
+}
+#col11{
+    font-size: 200%;
+}
+.data22{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 60%;
+}
+.data11{
+    background-color: rgb(12, 7, 83);
+    color: white;
+    border-radius: 5px;
+    padding: 4px 14px;
+    border: 2px solid rgb(189, 27, 27);
+    font-size: 20px;
+    cursor: pointer;
+}
+.data11:hover{
+    background-color: rgb(45, 49, 48);
+}
+
+.right22{
+    position: absolute;
+    right: 1%;
+    top: 2%;
+    display: inline-block;
+}
+.button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 0px 9px;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(45, 49, 48);
+}
+.ddd{
+    margin-top: 1%; 
+    margin-left: 1%;
+}

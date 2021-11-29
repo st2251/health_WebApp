@@ -1,0 +1,86 @@
+.jjj{
+    margin-left:1% ; 
+    margin-top:1% ;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bodyabout {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('../images/doctor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+
+}
+.left12 img {
+    width: 136px;
+    filter: invert(100%);
+}
+.right12 {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    color: black;
+    font-size: 23px;
+}
+
+.btn12 {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn12:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container12 {
+    text-align: center;
+    margin: -35px 80px;
+    padding : 75px;
+    border-radius: 28px;
+    color: rgb(255, 255, 255);
+   
+}
+.container12 h1 {
+    text-align: center;
+    font-size: 300%;
+}
+
+.box {
+    color: rgb(85, 85, 172);
+    border: 3px solid none;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 27%;
+    font-size: 26px;
+    text-align: left;
+}
+
+.about {
+    background-color: rgb(59, 59, 182);
+    margin-left: 5%;
+    border-radius: 5%;
+   
+}

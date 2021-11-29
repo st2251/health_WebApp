@@ -1,0 +1,39 @@
+
+.sss{
+    display: flex;
+}
+
+
+.mid{
+    display: block;
+    width: 36%;
+    margin: 30px auto;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.logo{
+    width: 80px;
+   
+}

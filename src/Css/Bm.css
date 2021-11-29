@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#heading{
+    color: aliceblue;
+    background-color: rgb(15, 5, 80);
+    margin-left: 25%;
+    margin-right: 21.7%;
+    padding-left: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 7%;
+    border-radius: 5px;
+    font-size: 32px;
+    text-align: center;
+   
+}
+
+.ttt{
+    width: 120px;
+    height: 100px;
+}
+.left1{
+    position: absolute;
+    right: 34px;
+    top:23px;
+    display: inline-block;
+}
+.button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 0px 9px;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(45, 49, 48);
+}
+
+
+body {
+    background: url('../images/doctor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+}
+
+.data2{
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 23px;
+    margin: auto;
+    background-color: rgb(17, 17, 94);
+    border-radius: 7px;
+    padding: 0.5%;
+}
+.data2:hover{
+    background-color: black;
+}
+.data1{
+    background-color: rgb(12, 7, 83);
+    color: white;
+    border-radius: 5px;
+    
+    /* margin-left: 50% ; */
+    padding: 4px 14px;
+    border: 2px solid rgb(189, 27, 27);
+    font-size: 20px;
+    cursor: pointer;
+}
+.data1:hover{
+    background-color: rgb(45, 49, 48);
+}
+
+        table,
+              th,
+              td{
+                border: 3px solid darkslateblue;
+                width: 69%;
+                margin-left: 447px;
+                border-collapse: collapse;
+              }
+ .col{
+     background-color: rgb(203, 238, 238);
+ }             
+ .col1{
+     background-color: rgb(165, 208, 209);
+ }
+ .col2{
+     background-color: rgb(150, 206, 206);
+ }
+ .col11{
+     background-color: rgb(165, 208, 209);
+     font-size: 30px;
+ }
+ .col22{
+    background-color: rgb(150, 206, 206);
+    font-size: 30px;
+ }
+ .tables1{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+   
+
+ }

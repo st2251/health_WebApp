@@ -1,0 +1,35 @@
+.st2251{
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('../images/doctor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+}
+
+.box9 {
+    background-color: white;
+    width: 55%;
+    height: 665px;
+    padding: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 0;
+    margin: 5px auto;
+    font-size: 30px;
+
+}
+
+.align {
+    display: flex;
+    text-align: center;
+}
