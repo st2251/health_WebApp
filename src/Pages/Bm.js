@@ -14,16 +14,16 @@ const Bm = () => {
     const [rbc,setRbc]=useState("");
 
     React.useEffect(() => {
-        window.sessionStorage.setItem('six',height);
+        window.sessionStorage.setItem('eight',height);
     },[height]);
     React.useEffect(() => {
-        window.sessionStorage.setItem('seven',weight);
+        window.sessionStorage.setItem('nine',weight);
     },[weight]);
     React.useEffect(() => {
-        window.sessionStorage.setItem('eight',waist);
+        window.sessionStorage.setItem('ten',waist);
     },[waist]);
     React.useEffect(() => {
-        window.sessionStorage.setItem('nine',rbc);
+        window.sessionStorage.setItem('eleven',rbc);
     },[rbc]);
 
     const handleSubmit = (event) => {

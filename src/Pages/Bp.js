@@ -42,7 +42,7 @@ const Bp = () => {
         },[country]);
 
         React.useEffect(() => {
-            window.sessionStorage.setItem('seven',gender)
+            window.sessionStorage.setItem('seven',gender);
         },[gender]);
         
         const handleSubmit = (event) => {
@@ -51,10 +51,8 @@ const Bp = () => {
             console.log(email);
             console.log(dob);
             console.log(age);
+            console.log(gender);
             console.log(country);
-
-            
-
         }
 
         
@@ -95,8 +93,13 @@ const Bp = () => {
                                 </tr>
                                 <tr>
                                     <td class="col01">Gender</td>
-                                    <td class="col11">Male <input type="radio" name="myGender" id="" value ={ gender } required onChange ={ event => setGender(event.target.value)} /> Female <input type="radio" name="myGender" id="" value ={ gender } required onChange ={ event => setGender(event.target.value)}/>
-                                        Other  <input type="radio" name="myGender" id=""/></td>
+                                    <th class="col11">
+                                    <select class="dropdown2" value={gender} required onChange={event => setGender(event.target.value)}>
+                                            <option>Select</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                            <option>Other</option>       
+                                    </select></th>
 
                                 </tr>
 

@@ -14,7 +14,7 @@ const Lifestyle = () => {
     const [active,setActive] =  useState("");
 
     React.useEffect(() => {
-        window.sessionStorage.setItem('ten',active);
+        window.sessionStorage.setItem('twelve',active);
     },[active]);
 
     const handleSubmit = (event) => {

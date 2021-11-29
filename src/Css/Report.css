@@ -1,5 +1,12 @@
+.one1,.two2,.three3,.four4,.five5,.six6{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .st2251{
     margin: auto;
+    color: black;
+    padding-left: 30%;
 }
 
 * {
@@ -26,6 +33,7 @@ body {
     margin: 0;
     margin: 5px auto;
     font-size: 30px;
+    color: black;
 
 }
 
